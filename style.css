@@ -23,6 +23,7 @@ src:url(FFF_Tusj.ttf);
 	
 	margin: auto;
 	
+	
 }
 
 div {
@@ -54,13 +55,14 @@ div {
 	display:grid;
 	grid-template-columns: repeat(3,auto);
 	justify-content: space-evenly;
+	background-color: #f9f7f4;
 	
 	
 	
 }
 
 #stopka {
-	background-color:blue;
+	background-color:#3d81ee;
 	clear:both;
 	font-size: 10px;
 	box-shadow: 1px 1px 2px #666;
@@ -126,4 +128,40 @@ caption {
 
 #marzec::before {
 	background-image: url("marzec.jpg");
+}
+
+#kwiecien::before {
+	background-image: url("kwiecien.jpg");
+}
+
+#maj::before {
+	background-image: url("maj.jpg");
+}
+
+#czerwiec::before {
+	background-image: url("czerwiec.jpg");
+}
+
+#lipiec::before {
+	background-image: url("lipiec.jpg");
+}
+
+#sierpien::before {
+	background-image: url("sierpien.jpg");
+}
+
+#wrzesien::before {
+	background-image: url("wrzesien.jpg");
+}
+
+#pazdziernik::before {
+	background-image: url("pazdziernik.jpg");
+}
+
+#listopad::before {
+	background-image: url("listopad.jpg");
+}
+
+#grudzien::before {
+	background-image: url("grudzien.jpg");
 }
